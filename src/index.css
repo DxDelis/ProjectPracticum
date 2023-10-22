@@ -1,13 +1,55 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Michroma&family=Oswald:wght@200;600&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background:#B69ED1;
+  color:azure;
+  font-family: 'Lilita One', sans-serif;
+  font-family: 'Michroma', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+}
+
+.wrapper {
+  width: 1290px;
+  margin: 50px auto;
+}
+header .logo {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+header ul.nav{
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li{
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+
+header ul.nav li:hover{
+  opacity: 0.5;
+}
+
+header .presentation {
+  margin: 20px 0;
+  background: url(./img/vise.jpg) no-repeat;
+  width: 50%;
+  height: 550px;
+  background-blend-mode: multiply;
+  background-color: bisque;
+  
+}
+
+footer{
+  margin-top: 30px;
 }
